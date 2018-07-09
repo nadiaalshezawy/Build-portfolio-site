@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Nadia Al Shezawy</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <!-- header -->
+      <header >
+         <div class="logo">
+            <img src="img/logo2.png"  class="logopic" alt="logo image">
+         </div>
+         <div class="name">
+            <h1  >Nadia AlShezawy</h1>
+            <h4 >Computer Engineer</h4>
+         </div>
+      </header>
+      <div class="container">
+         <!-- open bootstrap nav -->
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#About">About <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#project">Project</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <!-- end nav -->
+         <picture class="center-image">
+            <!--The page center image -->
+            <source media="(min-width:770px)" srcset= "img/bloom-medium.jpeg">
+            <source media="(min-width: 400px)" srcset="img/bloom-small.jpeg">
+            <img class="center" src="img/bloom-small.jpeg" alt="Flowers" >
+         </picture>
+         <!--End of page center image -->
+         <!-- middle paragraph -->
+         <div id="About" class="web-part">
+            <h1>About</h1>
+            <p>A self motivated engineer was the first on both school and college.
+               Worked as teaching assistant in University of Sharjah. Passionate about programming,
+               love to develop a career as a programmer for different platform.
+            </p>
+         </div>
+         <div id="project" class="web-part">
+            <h1>Projects</h1>
+         </div>
+         <!-- three image of projects-->
+         <div class="proj">
+            <a href="https://github.com/nadiaalshezawy/movie_web_trailer.git">Movie web Trailer</a>
+            <picture class="center-image">
+               <source media="(min-width:770px)" srcset= "img/movie-medium.jpg">
+               <source media="(min-width: 400px)" srcset="img/movie-small.jpg">
+               <img class="proj-image" src="img/movie-small.jpg" alt="project1 image" >
+            </picture>
+         </div>
+         <div class="proj">
+            <a href="https://github.com/nadiaalshezawy/Multiplication-quiz.git">Multiplication App </a>
+            <picture class="center-image">
+               <source media="(min-width:770px)" srcset= "img/calculator-medium.jpg">
+               <source media="(min-width: 400px)" srcset="img/calculator-small.jpg">
+               <img class="proj-image" src="img/calculator-small.jpg" alt="project1 image" >
+            </picture>
+         </div>
+         <div class="proj">
+            <a href="https://github.com/nadiaalshezawy/Best-wishes.git">Best Wishes Card App</a>
+            <picture class="center-image">
+               <source media="(min-width:770px)" srcset="img/app-medium.jpeg">
+               <source media="(min-width: 400px)" srcset="img/app-small.jpeg">
+               <img class="proj-image" src="img/app-small.jpeg" alt="project3 image" >
+            </picture>
+         </div>
+      </div>
+      <!-- open footer with zocial icon -->
+      <footer >
+         <a href="https://www.facebook.com/nadia.ahmedessa" id="contact" class="social zocial-facebook" ></a>
+         <a href="https://www.linkedin.com/in/nadia-al-shezawy-7ab294152/" class="social  zocial-linkedin"></a>
+         <a href="https://github.com/nadiaalshezawy" class="social  zocial-github"></a>
+         <a href="https://www.instagram.com/nadiaalshezawy/" class="social  zocial-instagram" ></a>
+      </footer>
+      <!-- close footer -->
+   </body>
+</html>
